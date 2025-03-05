@@ -1,0 +1,66 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+}
+header {
+    background-color: #1f2937;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+form label {
+    display: block;
+    margin-top: 15px;
+}
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+form button {
+    margin-top: 20px;
+    background-color: #2563eb;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #2563eb;
+    color: white;
+}
+tr:hover {
+    background-color: #f1f5f9;
+}
+.delete-btn {
+    background-color: #ef4444;
+    padding: 6px 12px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
