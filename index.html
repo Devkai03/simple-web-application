@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>Denmark R. Amolacion</header>
+
+<main>
+    <h2>Add New User</h2>
+    <form id="userForm">
+        <label>Name:</label>
+        <input type="text" id="name" required>
+
+        <label>Age:</label>
+        <input type="number" id="age" required>
+
+        <label>Email:</label>
+        <input type="email" id="email" required>
+
+        <label>Address:</label>
+        <input type="text" id="address" required>
+
+        <button type="submit">Add User</button>
+    </form>
+
+    <h2>All Users</h2>
+    <table id="userTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
